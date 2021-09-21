@@ -14,7 +14,7 @@ https://t.me/wenmou_car
 
 [task_local]
 #10s阅读
-0 8-14/1 * * * https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js, tag=10s阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+0 8-14/1 * * * https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js, tag=10s阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 [rewrite_local]
 #10s阅读
 .*read_channel\/do_read&pageshow.* url script-request-header https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js
