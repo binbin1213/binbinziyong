@@ -1,7 +1,8 @@
 /*
 10s阅读
-微信打开立即参与 -> http://h5.qzsjfc.xyz/j/h?upuid=136513&ch=xmy&type=1
-备用链接 -> http://h5.saibangkaile.xyz/j/h?upuid=136513&ch=xmy&type=1
+3元提现秒到
+立即参与 -> http://h5.wwwen.xyz/j/h?upuid=899464&ch=gzh&type=1
+备用链接 -> http://h5.jisuanji666.xyz/j/h?upuid=899464&ch=gzh&type=1
 
 每小时有0.3 一天5轮 一天1.5
 进不去关注10秒读书极速版公众号用官方链接
@@ -10,21 +11,20 @@
 每次运行都要手动验证一次(也就是一天5次)
 点立即阅读,等文章出来后关闭页面(注意 千万不要返回)
 拉一人头提现0.3奖励0.5 0.8再奖励0.5
-https://t.me/wenmou_car
 
 [task_local]
 #10s阅读
-0 8-14/1 * * * https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js, tag=10s阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+0 8-14/1 * * * https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js, tag=10s阅读, img-url=https://raw.githubusercontent.com/binbin1213/binbinziyong/main/Icon/10s.JPG, enabled=true
 [rewrite_local]
 #10s阅读
-.*read_channel\/do_read&pageshow.* url script-request-header https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js
+.*read_channel\/do_read&pageshow.* url script-request-header https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js
  
 #loon
-http-request .*read_channel\/do_read&pageshow.* script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js, requires-body=true, timeout=10, tag=10s阅读
+http-request .*read_channel\/do_read&pageshow.* script-path=https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js, requires-body=true, timeout=10, tag=10s阅读
  
 #surge
  
-10s阅读 = type=http-request,pattern=.*read_channel\/do_read&pageshow.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js,script-update-interval=0
+10s阅读 = type=http-request,pattern=.*read_channel\/do_read&pageshow.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/binbin1213/binbinziyong/main/soy-tool_app-script_10sRead.js,script-update-interval=0
  
 [MITM]
 hostname = m.lainiwl.top
@@ -46,8 +46,8 @@ message = ""
             await read10sck()
         }
         if (!cookiesArr[0]) {
-            $.msg($.name, '【提示】请先获取cookie', '微信打开 http://h5.hakc.top/j/r1?upuid=136678&ch=xmy', {
-                "open-url": "http://h5.hakc.top/j/r1?upuid=136678&ch=xmy"
+            $.msg($.name, '【提示】请先获取cookie', '微信打开 http://h5.wwwen.xyz/j/h?upuid=899464&ch=gzh&type=1', {
+                "open-url": "http://h5.jisuanji666.xyz/j/h?upuid=899464&ch=gzh&type=1"
             });
             return;
         }
