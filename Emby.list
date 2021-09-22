@@ -1,9 +1,9 @@
 # Jmsooo
-DOMAIN-SUFFIX,jmsooo.com,jmsooo
-DOMAIN-SUFFIX,cf.jmsooo.com,jmsooo
-DOMAIN-SUFFIX,hk.jmsooo.com,jmsooo
-DOMAIN-SUFFIX,sg.jmsooo.com,jmsooo
-DOMAIN-SUFFIX,jmsooo.com,jmsooo
-DOMAIN-SUFFIX,emby.maying.club,maying
-IP-CIDR,172.67.163.166/31,maying
-IP-CIDR,51.15.12.229/31,jmsooo
+DOMAIN-SUFFIX,jmsooo.com,国外影视
+DOMAIN-SUFFIX,cf.jmsooo.com,国外影视
+DOMAIN-SUFFIX,hk.jmsooo.com,国外影视
+DOMAIN-SUFFIX,sg.jmsooo.com,国外影视
+DOMAIN-SUFFIX,jmsooo.com,国外影视
+DOMAIN-SUFFIX,emby.maying.club,国外影视
+IP-CIDR,172.67.163.166/31,国外影视
+IP-CIDR,51.15.12.229/31,国外影视
