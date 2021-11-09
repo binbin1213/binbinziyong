@@ -1,4 +1,5 @@
 安装教程
+
 1 执行命令
 yum install wget unzip -y
 
