@@ -52,7 +52,7 @@ function import_db() {
 function up() {
   echo "[5/5] 启动中……"
   docker-compose up -d
-  echo "部署成功。您可以访问 http://IP:8888 查看"
+  echo "部署成功。您可以访问 http://IP:8999 查看"
 }
 
 function deploy() {
