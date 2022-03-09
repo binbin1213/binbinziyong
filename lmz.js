@@ -11,7 +11,7 @@
 圈X
 [rewrite_local]
 #狸猫赚
-https://www.limaozhan.com/index.php url script-request-body lmz.js
+https://www.limaozhan.com/index.php url script-request-body https://raw.githubusercontent.com/binbin1213/binbinziyong/main/lmz.js
 
 [MITM]
 hostname = www.limaozhan.com
