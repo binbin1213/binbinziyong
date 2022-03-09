@@ -8,7 +8,7 @@
 
 只写了签到，每天4毛，1元提现，后续有空了在写提现 ，提现是到吃不饱里的！所以说会玩的同学可以自己写个注册机接码玩玩吧  反正我不会
 
-圈X
+圈X配置
 [rewrite_local]
 #狸猫赚
 https://www.limaozhan.com/index.php url script-request-body https://raw.githubusercontent.com/binbin1213/binbinziyong/main/lmz.js
