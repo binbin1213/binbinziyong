@@ -2,7 +2,7 @@
 20220305 tom
 
 软件名称：狸猫赚
-下载地址：http://www.limaozhan.com/home/auth/registerr.html?i=12064
+下载地址：http://www.limaozhan.com/home/auth/registerr.html?i=12925
 
 获取ck → 我的 → 每日签到    
 
