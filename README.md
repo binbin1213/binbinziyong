@@ -39,3 +39,37 @@ http://ip:5705/admin/
 停止并删除容器
 
 docker rm -f jdx
+
+
+
+第一步：装人形傻妞
+第二步：存放脚本 jika.js  jiagou.js  xingyun.js 到scirpts目录下，其中magic.js为依赖。
+第三步：增加监测变量
+一、jika.js (集卡)
+请选择要编辑的属性(u返回,q退出,wq保存)：
+1. 监视任务名称 - 集卡抽奖
+2. 脚本关键词 - jika.js
+3. 洞察变量 - M_WX_COLLECT_CARD_URL
+4. 监听目标 - 
+5. 指定容器 - xPLmFWGwb5p_
+6. 开启静默
+7. 禁用监视
+二、jiagou.js (加购抽奖)
+请选择要编辑的属性(u返回,q退出,wq保存)：
+1. 监视任务名称 - 加购抽奖
+2. 脚本关键词 - jiagou.js
+3. 洞察变量 - M_WX_ADD_CART_URL
+4. 监听目标 - 20242537256
+5. 指定容器 - xPLmFWGwb5p_
+6. 开启静默
+7. 禁用监视
+三、xunyun.js(幸运抽奖)
+请选择要编辑的属性(u返回,q退出,wq保存)：
+1. 监视任务名称 - 幸运抽奖
+2. 脚本关键词 - xingyun.js
+3. 洞察变量 - M_WX_LUCK_DRAW_URL
+4. 监听目标 - 20242537256
+5. 指定容器 - xPLmFWGwb5p_
+6. 开启静默
+7. 禁用监视
+第四步：重启傻妞
